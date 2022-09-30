@@ -1,0 +1,55 @@
+Arguments: 
+  C:\node32\node.exe C:\node32\node_modules\yarn\bin\yarn.js add react-modal
+
+PATH: 
+  C:\Program Files\EasyPHP-DevServer-14.1VC9\binaries\php\php_runningversion;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Microsoft VS Code\bin;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Git\cmd;C:\node32;C:\Users\info\AppData\Roaming\Composer\vendor\bin;C:\Users\info\AppData\Roaming\Composer\vendor\laravel\installer;C:\Users\info\AppData\Roaming\Composer\vendor\composer;C:\xampp\phpMyAdmin\vendor\composer;C:\Users\info\AppData\Roaming\Composer\vendor\laravel\installer\bin;C:\Users\info\AppData\Local\Composer\files\laravel\installer;C:\xampp\phpMyAdmin\vendor\composer\installed;C:\Users\info\AppData\Roaming\Composer;C:\xampp\php;c:\Program Files\nodejs\node_modules\npm;
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  16.14.2
+
+Platform: 
+  win32 ia32
+
+Trace: 
+  Error: connect EHOSTUNREACH 104.16.17.35:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1157:16)
+
+npm manifest: 
+  {
+    "name": "etr",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "client": "cd client && npm start",
+      "back": "nodemon server.js",
+      "dev": "concurrently \"npm run back\" \"npm run client\""
+    },
+    "author": "Fatma",
+    "license": "ISC",
+    "dependencies": {
+      "bcrypt": "^5.0.1",
+      "concurrently": "^7.3.0",
+      "cors": "^2.8.5",
+      "dotenv": "^16.0.1",
+      "express": "^4.18.1",
+      "express-validator": "^6.14.2",
+      "jsonwebtoken": "^8.5.1",
+      "mongoose": "^6.5.0",
+      "nodemon": "^2.0.19",
+      "passport": "^0.6.0",
+      "passport-jwt": "^4.0.0",
+      "react-modal": "^3.15.1",
+      "react-toastify": "^9.0.8",
+      "styled-components": "^5.3.5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
